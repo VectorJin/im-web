@@ -1,0 +1,49 @@
+body {
+    font-size: 14px;
+}
+
+#content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#left_session {
+    color: red;
+}
+
+.session_item {
+    color: green;
+    width: 280px;
+    height: 60px;
+    padding: 4px;
+    margin-top: 2px;
+    background-color:aliceblue;
+}
+
+.session_item > img {
+    float:left;
+    height: 50px;
+    width: 50px;
+    margin: 6px;
+}
+
+.session_item > p {
+    float:left;
+    width: 200px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;    
+}
+
+.session_name {
+    margin: 0px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.last_message {
+    margin: 0px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
